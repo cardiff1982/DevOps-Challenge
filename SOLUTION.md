@@ -7,6 +7,7 @@
 2. Dockerfile has been created.
 3. A Helm chart has been created in the `.helm` directory.
 4. A simple script, `deploy.sh`, has been created to emulate the deployment pipeline.  
+5. Simple CI pipeline to run python tests on any branch but master has been added to .github/workflows. It's just emulation.
 
 ##How to run
 
