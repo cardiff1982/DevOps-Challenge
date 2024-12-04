@@ -59,12 +59,12 @@ spec:
                   name: {{ .Chart.Name }}
             - name: REDIS_PORT
               valueFrom:
-                configMapKeyRef:
+                secretKeyRef:
                   key: REDIS_PORT
                   name: {{ .Chart.Name }}
             - name: REDIS_DB
               valueFrom:
-                configMapKeyRef:
+                secretKeyRef:
                   key: REDIS_DB
                   name: {{ .Chart.Name }}
             - name: ENVIRONMENT
